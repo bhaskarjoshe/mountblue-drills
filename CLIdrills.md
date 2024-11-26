@@ -5,15 +5,7 @@
 1)  -   Create the following directory structure. (Create empty files
         where necessary)
 
-![](Pictures/100000010000042D00000155B773017F.png){width="8.2673in"
-height="2.6366in"}**
-
-1)  -   Steps -
-
-```{=html}
-<!-- -->
-```
-1.  1.  mkdir hello
+ 1.  mkdir hello
     2.  cd hello
     3.  mkdir five six
     4.  cd five
@@ -45,10 +37,6 @@ tree : give branched structure
 
 }
 
-Outcome -
-
-![](Pictures/10000001000003410000018F675D139E.png){width="6.6929in"
-height="4.1209in"}.
 
 **2) Delete all the files having the ******.log****** extension**
 
@@ -72,10 +60,6 @@ rm doesn't have to run again and again)
 
 }
 
-Result -
-
-![](Pictures/10000001000003A60000014BF039A517.png){width="6.6929in"
-height="2.3717in"}.
 
 **3) Add the following content to ******a.txt****
 
@@ -100,9 +84,6 @@ cat : to view a file
 
 cat \> : to add text into the file
 
-![](Pictures/10000001000003C000000064EC91750C.png){width="6.6929in"
-height="0.6965in"}.
-
 ** 4) Delete the directory named ******five****
 
 Steps -
@@ -123,32 +104,14 @@ Steps -
 
 ** Step 2 -mv a.txt two/a.txt**
 
-**
 
-![](Pictures/10000001000003C00000010F27897445.png){width="6.6929in"
-height="1.889in"}**Final Tree -.**
-
-**
-
-**
-
-**
-
-**
-
-**
-
-**
-
-**
-
-## ****Practice Drill 2****
+# ****Practice Drill 2****
 
 ### Pipes
 
 1.  **Download the contents of \"Harry Potter and the Goblet of fire\"
     using the command line
-    from **[***here***](https://raw.githubusercontent.com/bobdeng/owlreader/master/ERead/assets/books/Harry%20Potter%20and%20the%20Goblet%20of%20Fire.txt)
+    from *(https://raw.githubusercontent.com/bobdeng/owlreader/master/ERead/assets/books/Harry%20Potter%20and%20the%20Goblet%20of%20Fire.txt)
 
     -   Steps-
 
@@ -176,22 +139,13 @@ head -n 7 book.txt \| tail -n 3
 
 2.  How many times do the following words occur in the book?
 
-    -   Harry - grep -o \'Harry\' book.txt \| wc -l
+         -   Harry - grep -o \'Harry\' book.txt \| wc -l
 
-```{=html}
-<!-- -->
-```
-1.  -   Ron - grep -o \'Ron\' book.txt \| wc -l
+         -   Ron - grep -o \'Ron\' book.txt \| wc -l
 
-```{=html}
-<!-- -->
-```
-1.  -   Hermione - grep -o \'Hermione\' book.txt \| wc -l
+         -   Hermione - grep -o \'Hermione\' book.txt \| wc -l
 
-```{=html}
-<!-- -->
-```
-1.  -   Dumbledore - grep -o \'Dumbeldore\' book.txt \| wc -l
+         -   Dumbledore - grep -o \'Dumbeldore\' book.txt \| wc -l
 
 Single Command - grep -o -E \"Harry\|Ron\|Hermione\|Dumbledore\"
 book.txt \| s ort \| uniq -c
@@ -230,10 +184,7 @@ book.txt \| s ort \| uniq -c
         arguments and except them converts all the other things into a
         new line so that every word is seperated into a new line
 
-```{=html}
-<!-- -->
-```
-1.  -   sort \| uniq -c \| wc -l : now words in every line are sorted so
+        sort \| uniq -c \| wc -l : now words in every line are sorted so
         same words come together, then there count is done and at last a
         sum of all is output by wc.
 
