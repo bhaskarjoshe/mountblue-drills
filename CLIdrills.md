@@ -24,7 +24,7 @@ cd \~
 tree hello
 ```
 ### Explanation -
-* cd : to navigate in the directories
+* cd : to navigate in the directories *
 cd \~ : home directory
 mkdir : to create a directory
 touch : to create a file
