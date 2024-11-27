@@ -24,29 +24,29 @@ cd \~
 tree hello
 ```
 ### Explanation -
-*cd : to navigate in the directories
-cd \~ : home directory
-mkdir : to create a directory
-touch : to create a file
-tree : give branched structure*
+*cd : to navigate in the directories ;
+cd \~ : home directory ;
+mkdir : to create a directory ;
+touch : to create a file ; 
+tree : give branched structure ;*
 
-### 2) Delete all the files having the ******.log****** extension
+### 2) Delete all the files having the .log extension
 
 Command - 
 ```find . -name \"\*.log\" -exec rm {} + ```
 
 ### Explanation -
 *find . -- means that it will search in the current directory and all
-subdirectories*
+subdirectories ;*
 *-name "\*.log" - -name flag is used to match a pattern which in this
-case is all files ending with .log*
+case is all files ending with .log ;*
 *-exec rm {} + -- execute flag is used here to perform a specific
 function which is remove. Also for the execute a batch is made under {}
 and which has been l ocked by + at the end so that after all the log
 files are found in the batch then only rm performs it's action (so that
 rm doesn't have to run again and again)*
 
-### 3) Add the following content to ******a.txt****
+### 3) Add the following content to a.txt
 
 'Unix is a family of multitasking, multiuser computer operating systems
 that derive from the original AT&T Unix, development starting in the
@@ -55,30 +55,28 @@ and others'
 ```
 cd hello/one\
 cat \> a.txt\
-* Unix is a family of multitasking, multiuser computer operating systems
-that derive from the original AT&T Unix, development starting in the
-1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie,
-and others\
-*cat a.txt
+*Unix is a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, development starting in the 1970s at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others*
+cat a.txt
 ```
 ### Explanation -
 
-*cat : to view a file
+*cat : to view a file ;
 cat \> : to add text into the file*
 
-### 4) Delete the directory named ******five****
+### 4) Delete the directory named five
 
 ```cd ..
 rm -r five
 ```
-### 5) ******Rename the ******one****** directory to ******uno****
+### 5) Rename the one directory to uno
 
 ```mv one uno```
 
-### 6)******Move ******a.txt****** to the ******two****** directory****
+### 6 )Move a.txt to the two directory
 
-```cd uno
-mv a.txt two/a.txt```
+``` cd uno
+mv a.txt two/a.txt
+```
 
 
 ## Practice Drill 2
