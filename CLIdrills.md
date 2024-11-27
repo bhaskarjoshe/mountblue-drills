@@ -23,19 +23,12 @@ touch four/access.log
 cd \~
 tree hello
 ```
-Explanation -{
-
-cd : to navigate in the directories
-
+### Explanation -
+> cd : to navigate in the directories
 cd \~ : home directory
-
 mkdir : to create a directory
-
 touch : to create a file
-
 tree : give branched structure
-
-}
 
 
 **2) Delete all the files having the ******.log****** extension**
