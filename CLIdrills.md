@@ -1,28 +1,28 @@
-## *CLI*
+# CLI
 
 ## Practice Drill 1
 
-1)  -   Create the following directory structure. (Create empty files
-        where necessary)
+###   Create the following directory structure. (Create empty files where necessary)
 
- 1.  mkdir hello
-    2.  cd hello
-    3.  mkdir five six
-    4.  cd five
-    5.  mkdir six
-    6.  cd six
-    7.  touch c.txt && mkdir seven
-    8.  touch seven/error.log
-    9.  cd \~/hello/one
-    10. touch a.txt b.txt && mkdir three
-    11. cd three
-    12. touch d.txt && mkdir three
-    13. cd three
-    14. touch e.txt && mkdir four
-    15. touch four/access.log
-    16. cd \~
-    17. tree hello
-
+```
+mkdir hello
+cd hello
+mkdir five six
+cd five
+mkdir six
+cd six
+touch c.txt && mkdir seven
+touch seven/error.log
+cd \~/hello/one
+touch a.txt b.txt && mkdir three
+cd three
+touch d.txt && mkdir three
+cd three
+touch e.txt && mkdir four
+touch four/access.log
+cd \~
+tree hello
+```
 Explanation -{
 
 cd : to navigate in the directories
